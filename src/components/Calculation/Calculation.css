@@ -1,0 +1,28 @@
+.Calculation {
+  display: flex;
+  align-items: center;
+  margin: 4px 0;
+}
+
+.Calculation input {
+  border: 1px solid #a0a0a0;
+  margin-right: 16px;
+  width: 30px;
+  width: 8ch;
+  padding: 4px 8px;
+}
+
+.Calculation input:last-child {
+  margin-right: 0;
+}
+
+.Calculation input:read-only {
+  background: #f0f0f0;
+  border-color: #d0d0d0;
+  color: #505050;
+}
+
+.Calculation__label {
+  width: 8ch;
+  margin-right: 24px;
+}

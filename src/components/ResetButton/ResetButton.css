@@ -1,0 +1,9 @@
+.ResetButton {
+  cursor: pointer;
+  width: 120px;
+  height: 25px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

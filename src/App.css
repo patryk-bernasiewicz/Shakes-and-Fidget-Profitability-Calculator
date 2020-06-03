@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  display: inline-block;
 }
 
 .App-logo {
@@ -35,4 +36,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.App__headings {
+  display: flex;
+}
+
+.App__headings::before {
+  content: '';
+  display: block;
+  width: 30px;
+  width: 9ch;
+}
+
+.App__explanation {
+  font-size: 10px;
+  text-align: center;
+  color: #505050;
+  width: 30px;
+  width: 8ch;
+  padding: 4px 8px;
+  margin-right: 24px;
 }
